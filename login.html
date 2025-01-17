@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.css">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/login.css">
+    <title>login-page.com</title>
+</head>
+<body>
+    <section class="container">
+        <div class="form login">
+            <div class="form-content">
+                <header>Login</header>
+                <form id="#">
+                    <div class="field input-field">
+                        <input type="email" class="email" placeholder="Email">
+                    </div>
+
+                    <div class="field input-field">
+                        <input type="password" class="password" placeholder="password" title="Password (UpperCase, LowerCase, Number/SpecialChar and min 8 to 20 Chars)" pattern="(?=^.{8,20}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$"  required=""  name="texpassword" >                    
+                    </div>
+                    <div class="from-click">
+                        <a href="forgot-password">Forgot password?</a>
+                    </div>
+
+                    <div class="field button-field">
+                        <button class="but-login">Login</button>
+                    </div>
+
+                    <div class="from-click">
+                        <span>All ready have a account? <a href="#" class="signup-link"> Sign in </a></span>
+                    </div>
+                </form>
+            </div>
+            <div class="line"></div>
+            <div class="media-option">
+                <a href="#" class="field google">
+                    <i class='bx bxl-google' ></i>
+                    <span>Login with google</span>
+                </a>
+                <a href="#" class="field facebook facebook-icone">
+                    <i class='bx bxl-facebook'></i>
+                    <span>Login with facebook</span>
+                </a>
+                
+            </div>
+        </div>
+    </section>
+</body>
+</html>

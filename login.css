@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(74, 144, 236);
+}
+.form{
+    background-color: white;
+    border-radius: 3px;
+    max-width: 400px;
+    width: 100%;
+    padding: 30px;
+}
+header{
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    color: rgb(22, 35, 77);
+}
+form{
+    margin-top: 20px;
+}
+form .field{
+    position: relative;
+    height: 50px;
+    width: 100%;
+    margin-top: 20px;
+}
+.field input, .field button{
+    height: 100%;
+    width: 100%;
+    border: none;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 5px;
+}
+.field input{
+    border: 2px solid rgb(205, 205, 207);
+    padding: 10px;
+    outline: none;
+}
+.eye-icon{
+    font-size: 18px;
+    color: rgb(143, 143, 175);
+    position: absolute;    
+    top: 50%;
+    right: 10px;
+    transform: translateY(-14px);
+    cursor: pointer;
+    padding: 5px;
+}
+.field button{
+    background-color: rgb(94, 94, 228);
+    color: white;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+.field button:hover{
+    background-color: rgb(69, 69, 163);
+}
+.from-click{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+}
+.from-click span ,
+.from-click a{
+    font-size: 14px;
+    font-weight: 400;
+    color: rgb(21, 21, 46);
+}
+.from-click a{
+    text-decoration: none;
+    color: rgb(72, 72, 211);
+}
+.from-click a:hover{
+    text-decoration: underline;
+}
+.line{
+    width: 100%;
+    height: 1px;
+    background-color: rgb(225, 232, 238);
+    position: relative;
+    margin: 33px 0px;
+}
+.line::before{
+    content: 'Or';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    color: rgb(146, 152, 156);
+    padding: 0px 10px;
+}
