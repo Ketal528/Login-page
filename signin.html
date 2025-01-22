@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="font-awesome/css/font-awesome.css">
     <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="login.css">
-    <title>login-page.com</title>
+    <title>Signin-page.com</title>
 </head>
 <body>
     <section class="container">
@@ -16,22 +16,24 @@
                 <header>Login</header>
                 <form id="#">
                     <div class="field input-field">
+                        <input type="text" class="uname" placeholder="Name">
+                    </div>
+                    <div class="field input-field">
                         <input type="email" class="email" placeholder="Email">
                     </div>
-
                     <div class="field input-field">
                         <input type="password" class="password" placeholder="password" title="Password (UpperCase, LowerCase, Number/SpecialChar and min 8 to 20 Chars)" pattern="(?=^.{8,20}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$"  required=""  name="texpassword" >                    
                     </div>
-                    <div class="from-click">
-                        <a href="forgotpwd.html">Forgot password?</a>
+                    <div class="field input-field">
+                        <input type="password" class="password" placeholder="Conform password" title="Password (UpperCase, LowerCase, Number/SpecialChar and min 8 to 20 Chars)" pattern="(?=^.{8,20}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$"  required=""  name="texpassword" >                    
                     </div>
 
                     <div class="field button-field">
-                        <button class="but-login">Login</button>
+                        <button class="but-login">Sign in</button>
                     </div>
 
                     <div class="from-click">
-                        <span>Create new account? <a href="signin.html" class="signup-link"> Sign in </a></span>
+                        <span>All ready have a account? <a href="login.html" class="signup-link"> Log in </a></span>
                     </div>
                 </form>
             </div>
